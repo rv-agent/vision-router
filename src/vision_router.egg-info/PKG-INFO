@@ -1,9 +1,0 @@
-Metadata-Version: 2.4
-Name: vision-router
-Version: 1.0.0
-Summary: Multi-provider image analysis with auto-fallback and key rotation
-Requires-Python: >=3.10
-Requires-Dist: pillow
-Requires-Dist: requests
-Requires-Dist: python-dotenv
-Requires-Dist: flask
