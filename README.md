@@ -15,9 +15,14 @@ When you (the agent) need to analyze an image/screenshot:
 ## Install
 
 ```bash
-git clone <url> && cd vision-router
+git clone https://github.com/rv-agent/vision-router.git
+cd vision-router
 chmod +x install.sh && ./install.sh
-# Or: pip install -r requirements.txt && pip install -e .
+```
+
+Or manually:
+```bash
+pip install -r requirements.txt && pip install -e .
 ```
 
 ## CLI
