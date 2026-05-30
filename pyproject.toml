@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vision-router"
+version = "1.0.0"
+description = "Multi-provider image analysis with auto-fallback and key rotation"
+requires-python = ">=3.10"
+dependencies = [
+    "pillow",
+    "requests",
+    "python-dotenv",
+    "flask",
+]
+
+[project.scripts]
+vision = "vision.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
